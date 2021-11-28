@@ -12,7 +12,11 @@
     <?php include_once "header.php" ?> 
     <div class="content">
         <h1>Reportes</h1>
-
+        <h3>Buscar por app</h3>
+        <input type="text" id="txtAppName" class="txt">
+        <button onclick="getAppReports()" class="btn">Buscar</button>
+        <div id="divTabla"></div>
+        <script src="reports.js"></script>
     </div> 
 </body>
 </html>

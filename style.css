@@ -72,6 +72,39 @@ body {
     background-color: #0e18cc ;
 }
 
+.btn {
+    background-color: #030cbb;
+    color: whitesmoke;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0e18cc ;
+}
+
+#divTabla td, #divTabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#divTabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#divTabla tr:hover {background-color: #ddd;}
+
+#divTabla th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #030cbb;
+color: white;
+}
+
+.txt {
+    height: 1.5em;
+}
+
 @media only screen and (max-width: 600px) {
     .anvorguesa {
         display: block;

@@ -9,8 +9,9 @@ self.addEventListener('install', (evento) => {
             function(cache) { //Una vez abierto el caché se agregan los archivos
                 cache.addAll([
                     '/',
-                    'app.js',
-                    'favicon.ico',
+                    '/app.js',
+                    '/favicon.ico',
+                    '/manifest.json',
                     '/style.css',
                     '/logo-white.png',
                     '/menu-icon.png',
