@@ -10,7 +10,7 @@ if ($mysqli -> connect_errno) {
 }
 
 // Consulta Mysql
-$query = 'SELECT * FROM `Reportes`';
+$query = 'SELECT * FROM `Reportes` ORDER BY ID DESC';
 
 if ($result = $mysqli -> query($query)) {
 
@@ -34,14 +34,14 @@ if ($result = $mysqli -> query($query)) {
 
 
 while ($reporte = $result -> fetch_object()) {?>
-
+<tr>
 	<td><?php print $reporte->ID ?></td>
     <td><?php print $reporte ->Fecha ?></td>
     <td><?php print $reporte ->App ?></td>
     <td><?php print $reporte ->Tipo ?></td>
     <td><?php print $reporte ->Tester ?></td>
     <td><?php print $reporte ->Reporte ?></td>
-	
+	</tr>	
 <?php } 
 $result -> free_result();
 }
