@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td>Tester:</td>
-                <td><input type="text" id="txtEmail" class="txt"></td>
+                <td><input type="text" id="txtUsuario" class="txt"></td>
             </tr>
             <tr>
                 <td>Detalles:</td>

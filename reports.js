@@ -44,10 +44,10 @@ function getAppReports() {
 function sendReport() {
     var appName = document.querySelector('#txtApp').value;
     var tipoReporte = document.querySelector('#txtTipo').value;
-    var email = document.querySelector('#txtEmail').value;
+    var usuario = document.querySelector('#txtUsuario').value;
     var detalles  = document.querySelector('#txtDetalles').value;
     var url = "sendreport.php"; 
-    var datossol = "appname=" + appName + "&tipo=" + tipoReporte + "&email="+email +"&detalles="+detalles ;
+    var datossol = "appname=" + appName + "&tipo=" + tipoReporte + "&user="+usuario +"&detalles="+detalles ;
     console.log(url);
     fetch(
         url,
