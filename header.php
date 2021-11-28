@@ -18,3 +18,4 @@
 </div>
 
 <script src="menu.js"></script>
+<script src="app.js"></script>
