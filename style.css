@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    margin: 1em;
+}
+
+.header {
+    background-color: #030cbb;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+.head-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.head-logo {
+    max-width: 20%;
+    width: 10em;
+    height: auto;
+}
+
+.page-name {
+    font-size: 6em;
+    font-weight: bolder;
+    margin-right: auto;
+}
+
+.anvorguesa {
+    background: none;
+    border: none;
+    max-width: 20%;
+    width: 10em;
+    display: none;
+}
+
+.head-menu {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu-item {
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+    width:100%;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.menu-item:hover {
+    background-color: #0e18cc ;
+}
+
+@media only screen and (max-width: 600px) {
+    .anvorguesa {
+        display: block;
+        width: 4em;
+    }
+
+    .page-name {
+        font-size: 4em;
+        margin: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+}
