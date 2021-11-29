@@ -11,6 +11,7 @@
     <!-- iOS -->
     <link rel="apple-touch-icon" href="icon-192x192.png">
     <meta name="apple-mobile-web-app-status-bar" content="#030cbb">
+    <meta name="theme-color" content="#030cbb"/>
 </head>
 <body>
     <?php include_once "header.php" ?>

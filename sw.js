@@ -17,7 +17,11 @@ self.addEventListener('install', (evento) => {
                     '/menu-icon.png',
                     '/menu.js',
                     '/header.php',
-                    '/index.php'
+                    '/index.php',
+                    '/registro.php',
+                    '/reportes.php',
+                    '/reports.js',
+                    '/registro.js'
                 ]);
             }
         )
