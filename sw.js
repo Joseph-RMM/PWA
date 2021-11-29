@@ -21,7 +21,8 @@ self.addEventListener('install', (evento) => {
                     '/registro.php',
                     '/reportes.php',
                     '/reports.js',
-                    '/registro.js'
+                    '/registro.js',
+                    '/notifications.js'
                 ]);
             }
         )

@@ -28,8 +28,12 @@
             </tr>
         </table>
         <button class="btn" onclick="sendRegistro()">Registrarme</button>
+        <br>
+        <br>
+        <button class="btn" id="btnNotifications">Activar notificaciones</button>
         <div id="divInfo"></div>
     </div>
     <script src="registro.js"></script>
+    <script src="notifications.js"></script>
 </body>
 </html>
