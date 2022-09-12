@@ -1,2 +1,2 @@
 # PWA
-Proyecto de una PWA para la materia del profesor Nolasco
+Ejercicio de una PWA simple
